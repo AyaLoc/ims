@@ -1,0 +1,91 @@
+# =============================
+# OS-specific files
+# =============================
+.DS_Store
+Thumbs.db
+
+# =============================
+# Java Compilation
+# =============================
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# =============================
+# NetBeans Specific
+# =============================
+nbproject/private/
+build/
+dist/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# =============================
+# IntelliJ / Eclipse (if ever used)
+# =============================
+.idea/
+*.iml
+*.ipr
+*.iws
+*.class
+target/
+out/
+
+# =============================
+# Tomcat (Generated files and cache)
+# =============================
+work/
+logs/
+temp/
+
+# =============================
+# Maven/Gradle (if used)
+# =============================
+/.mvn/
+/target/
+/build/
+!.mvn/wrapper/maven-wrapper.jar
+
+# =============================
+# Uploaded Files and Artifacts
+# =============================
+uploads/
+*.pdf
+
+# =============================
+# Node (if frontend used any Node/npm)
+# =============================
+node_modules/
+npm-debug.log*
+
+# =============================
+# Environment and Secrets
+# =============================
+.env
+*.key
+*.pem
+*.crt
+*.env.local
+
+# =============================
+# IDE temporary files
+# =============================
+*.swp
+*.swo
+*~
+*.bak
+
+# =============================
+# VS Code (if used)
+# =============================
+.vscode/
+
+# =============================
+# Misc
+# =============================
+*.tmp
+*.temp

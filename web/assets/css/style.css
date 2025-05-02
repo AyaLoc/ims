@@ -1,0 +1,108 @@
+/* style.css */
+
+/* General Page Settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+}
+
+/* Headers */
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+/* Navigation Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tables */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Forms */
+form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+input[type="text"], input[type="password"], input[type="number"], textarea, select {
+    width: 95%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Alert Messages */
+.success {
+    color: green;
+    text-align: center;
+    margin: 10px;
+}
+.error {
+    color: red;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Footer (optional) */
+footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    margin-top: 30px;
+    color: #aaa;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
